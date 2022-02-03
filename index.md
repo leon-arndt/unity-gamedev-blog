@@ -2,4 +2,4 @@
 title: "Pragmatic Unity3D"
 ---
 
-I'm glad you are here. I plan to talk about ...
+Hi, I am Leon, a full-stack game developer with the goal of not being content with the work I do today in the future. Simple solutions to complex problems; mostly C# and Unity.
