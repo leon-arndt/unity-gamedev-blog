@@ -1,10 +1,10 @@
 title: Pragmatic Unity Game Development
 author: Leon Arndt
-email: your-email@domain.com
+email: leon.arndt.gamedev@gmail.com
 description: Pragmatic tips for making games in Unity
 theme: minima
 
 # social links
 github_username:  leon-arndt # DO NOT include the @ character, or else the build will fail!
 
-show_excerpts: true # set to false to remove excerpts on the homepage
+show_excerpts: false # set to false to remove excerpts on the homepage
