@@ -1,8 +1,5 @@
-# About
-# Leon
-Game Developer – Living in Hamburg, Germany
-
-Hi, this a personal blog of Leon Arndt.
+# Mobile Game Developer – Living in Hamburg, Germany
+Hi, this is a personal development blog of Leon Arndt.
 I started making games when I was ten years old and it has become a life-long passion.
 
 You can contact me at
@@ -22,7 +19,7 @@ Deck13 Interactive Gmbh (2018). Game Design Intern. Worked on level design and g
 ## Education
 2020-2021 M.A. Games Master at HAW Hamburg. Hamburg, Germany
 
-2016-2020 B.A. Animation Game at Hochschule Darmstadt. Dieburg, Germany
+2016-2020 B.A. Animation & Game at Hochschule Darmstadt. Dieburg, Germany
 
 ## Shipped Games
 Sunrise Village, InnoGames GmbH, Android (2022). Farming game with adventure elements.
