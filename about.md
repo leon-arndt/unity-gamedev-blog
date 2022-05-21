@@ -7,8 +7,6 @@ leon.arndt.gamedev@gmail.com
 
 Views expressed here are my own and not necessarily represent the position of my current or previous employer(s).
 
-![Leon-at-computer](/_images/LeonDevDuotone.jpg){:class="img-responsive"}
-
 ## Employement
 InnoGames GmbH (2022-Current). C# Unity and Java developer for Sunrise Village, a farming game for Android.
 
