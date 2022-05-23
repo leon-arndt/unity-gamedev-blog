@@ -1,5 +1,5 @@
-# Mobile Game Developer – Living in Hamburg, Germany
-Hi, this is a personal development blog of Leon Arndt.
+# About
+Hi, this is a personal development blog of Leon Arndt, a mobile Game Developer – Living in Hamburg, Germany.
 I started making games when I was ten years old and it has become a life-long passion.
 
 You can contact me at
