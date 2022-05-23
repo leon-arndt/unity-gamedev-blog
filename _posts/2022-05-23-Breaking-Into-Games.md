@@ -3,7 +3,6 @@ title: "Breaking into the German Games Industry"
 date: 2022-05-23
 ---
 
-# Breaking into the German Games Industry
 This less-technical post is about how to find work as a Unity Developer in the German games industry. I have been working in the German games industry for 2-3 years so the idea of breaking into it still feels recent.
 
 ## Porfolio
