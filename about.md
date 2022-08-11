@@ -10,7 +10,7 @@ Views expressed here are my own and not necessarily represent the position of my
 ## Employement
 InnoGames GmbH (2022-Current). C# Unity and Java developer for Sunrise Village, a farming game for Android.
 
-InnoGames GmbH (2020-2021). C# Unity and Web developer for Medieval Kingdoms, a city-building game for Android.
+Xyrality GmbH (2020-2021). C# Unity and Web developer for Medieval Kingdoms, a city-building game for Android.
 
 KwaQua Games (2017-2019). C# Unity developer for Mish Mash, a drawing game for Android for and Browser.
 
@@ -28,7 +28,7 @@ Medieval Kingdoms, Xyrality GmbH, Android (2022). City-building game in a mediev
 
 Battle Hordes - Idle Kings, Xyrality GmbH, Android (2022). Mobile idle game in a medieval setting.
 
-Desert Explorer, Broken Start GbR, Android (2021). City-building game about a wizard in the desert.
+Desert Explorer, Broken Star GbR, Android (2021). City-building game about a wizard in the desert.
 
 Horizon Beyond, Self-published (2019). VR game about flying through the clouds.
 
