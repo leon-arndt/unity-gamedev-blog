@@ -45,11 +45,13 @@ This is a simple todo list. Spliting the todo list down into smaller tasks makes
 - [ ] Also consider if adding an virtual `JumpExecute()` is better than checking manually
 
 ## 5. Tests
-A list of tests which should be performed before the P
+A list of tests which should be performed before the PR is merged.
 
 Note: some developers may advise you to write tests first. That might lead you to ask why tests aren't listed earlier. Tests can only be written if the problem is clear and understood. Writing a test too early might lead to it being written twice. I write notes on what to test (whether in code or manual) whenever I think something might be important to test.
 
 I also add a note if a test failed and why it failed. After performing all the testing I decided on in the Editor I create a target platform build (such as Android) and test there. The target platform tests may be slightly different, in the example below, the automated level-playthrough is not possible on Android so it is left out.
+
+If the automated level-playthroughs are possible (e.g. the Unity test runner tests) then these should be preferred because they improve test consistency.
 
 **Example**
 Android Tests:
