@@ -1,5 +1,5 @@
 ---
-title: "Side Effects In Unity"
+title: "Explicit return Usage In Unity"
 date: 2022-02-03
 ---
 
@@ -18,30 +18,38 @@ It may be better to written by assigning a local variable which has an extension
 ```C#
 var screen = ScreenType.PauseScreen;
 var ui = ShowTheUiScreen(screen):
-if (ui.ShouldPauseGame) {
-PauseGame();
+if (ui.ShouldPauseGame)
+{
+    PauseGame();
 }
 ```
 This also allows for multiple pieces of info about the UI to be used to change the behaviour without making the UI display method more complex (which allows for better Single-responsibility principle)
 ```C#
 var screen = ScreenType.PauseScreen;
 var ui = ShowTheUiScreen(screen):
-if (ui.ShouldPauseGame) {
-PauseGame();
+if (ui.ShouldPauseGame)
+{
+    PauseGame();
 }
-if (ui.ShouldPlayOpenSound) {
-PlayOpenSound();
+
+if (ui.ShouldPlayOpenSound)
+{
+    PlayOpenSound();
 }
 ```
 
 If you find yourself copy-pasting this code a lot, it might make sense to split it into categories, such as a screen category
 
 ```C#
-void ShowScreen(MajorScreenType type) {
-var screen = ScreenType.PauseScreen;
-var ui = ShowTheUiScreen(type):
-PauseGame();
-PlayOpenSound();
+
+public enum MajorScreenType;
+
+void ShowScreen(MajorScreenType type)
+{
+    var screen = ScreenType.PauseScreen;
+    var ui = ShowTheUiScreen(type);
+    PauseGame();
+    PlayOpenSound();
 }
 
 ```
