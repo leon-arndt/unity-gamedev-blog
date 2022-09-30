@@ -3,7 +3,6 @@ title: "ScriptableObject Systems"
 date: 2022-05-18
 ---
 
-# ScriptableObject Systems
 Scriptable objects are perfect data containers because they can easily be shared as references between different MonoBehaviours. This is not a new idea, notable [
 Ryan Hipple's Unite Austin 2017 talk](https://www.youtube.com/watch?v=raQ3iHhE_Kk) covers the topic.
 
@@ -73,6 +72,3 @@ This implementation is limited to int types, you may want to create a separate `
 ScriptableObjects need to be reset carefully during runtime. Commonly this happens in `Start()` or `OnEnable()` methods. If ScriptableObjects are not reset data which was used during testing may be pushed onto the git master branch and land in a release which can lead to players suddenly having a ton of game currency for example.
 
 These systems will also not allow for more specific behavior (such as a sound being played each time the system value changes). For that an event could be used, or a new type of system class could be created, e.g. `HealthSystem` if health-specific behavior is needed.
-
----
-That's it.

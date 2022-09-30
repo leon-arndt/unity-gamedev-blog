@@ -32,6 +32,3 @@ My tip: use a version that is stable and familar for the team. It may not have a
 
 ## Limitations
 For personal project you may want to break these rules on purpose. For example, writing your own UniRx clone may teach you more about how these sort of library might work internally.
-
----
- That's it.

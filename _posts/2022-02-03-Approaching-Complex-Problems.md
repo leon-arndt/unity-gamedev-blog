@@ -3,7 +3,6 @@ title: "Approaching Complex Problems"
 date: 2022-02-03
 ---
 
-# Approaching Complex Problems
 This post introduces the approach I use to solve complex problems. Try it and see if it works for you, everyone works differently. I will try to illustrate the approach using a "player double jump" feature as an example.
 
 Generally, I break every complicated issue I work on into different categories. I consider issues complicated which I know I can't solve in 1 hour or know that I don't know enough to estimate them with some degree of confidence.
@@ -78,9 +77,11 @@ Task: Add a double jump feature for the player.
 Solution: Used a rigidbody to add the jump because rigidbody could be reused from single-jump system.
 ```
 
+## Beyond the steps
+- generally I have found visualizing my work helps me to work much faster. For example, imagining receiving feedback on a pull request makes me much more comfortable with the process of reacting to the feedback and replying to it.
+- Using [Anki](https://apps.ankiweb.net/) cards to review common troubleshooting problems (e.g. git errors) might help you to become more familiar with common problem-solving techniques.
+
 ## Disclaimer
 Most of the problems I work on have between 400-2000 Words written in their markdown files. If you find your file becoming hard to manage because it is so large you might need to break your problem down into smaller problems (this is always possible, if you don't think it is then you need to work on understanding the problem better).
 
 Feel free to adjust this process however it suits you.
-
-That's it.

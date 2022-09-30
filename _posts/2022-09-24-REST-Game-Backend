@@ -1,0 +1,24 @@
+---
+title: "Creating a useful REST game backend"
+date: 2022-09-24
+---
+
+## Why?
+Sometimes we want our game's client (e.g. Unity) to share information with other players. A classic example of this is a highscore system where each player can see the top score in the world in a high score display.
+
+**The components**
+- NodeJS REST server (to handle requests fomr the client)
+
+
+
+**NodeJS REST server**
+components
+- Express
+- Jest
+- Husky (use git commit hooks to run tests)
+
+**Integrated testing**
+
+
+## Limitations
+The backend will not support WebRTC/similar persistent connections out of the box.

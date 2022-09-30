@@ -3,7 +3,6 @@ title: "Explicit return Usage In Unity"
 date: 2022-02-03
 ---
 
-# Side Effects In Unity
 Can be helpful in avoiding bugs and making your code more readable, especially in large teams where the codebase can be huge.
 
 ```C#
@@ -53,6 +52,3 @@ void ShowScreen(MajorScreenType type)
 }
 
 ```
-
-
-That's it.

@@ -3,8 +3,6 @@ title: "Measuring Developer Productivity"
 date: 2022-02-03
 ---
 
-# Measuring Developer Productivity
-
 ## Disclaimer
 First and foremost we should measure ourselves against our past self. For example, ask yourself questions like "have I opened more PRs this year or last year?" At the end of the day productivity is hard to measure and it may be more helpful to simply identify problems wih your approach and work on those than to try and increase artificial metrics.
 In general, productivity will always be hard to measure because many soft-skills such as communication may also be an important skill to practice as a developer.
@@ -43,6 +41,3 @@ This idea is similar to the Engineering Daybooks presented in the [Pragmatic Pro
 
 
 To quantify knowledge I count the total number of lines in the relevant subfolder of my engineering daybook. This simple number can then be studied check metrics such as lines-of-knowledge generated each month, highest-performing days of the week, etc. These metrics can be studied using git commits or by taking manual snapshots; for example by using automated bash scripts which count lines of code with tools such as [cloc](https://github.com/AlDanial/cloc).
-
----
-That's it.
