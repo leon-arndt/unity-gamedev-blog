@@ -4,21 +4,24 @@ date: 2022-09-30
 ---
 
 ## Why?
-Sometimes we want our game's client (e.g. Unity) to share information with other players. A classic example of this is a highscore system where each player can see the top score in the world in a high score display.
+Sometimes we want our game's client (e.g. Unity) to share information with other players. A classic example of this is a high-score system where each player can see the top score in the world in a high score display.
 
 **The components**
-- NodeJS REST server (to handle requests fomr the client)
-
+- NodeJS REST server (to handle requests from the client)
 
 
 **NodeJS REST server**
 components
-- Express
-- Jest
+- Express (to set up all needed REST requests)
+- Jest (to set up tests for the project)
 - Husky (use git commit hooks to run tests)
 
 **Integrated testing**
 One option to guarantee (at least in terms of regression) the quality of a software project is through automated testing. For a server one solution could be to use a git hook (e.g. using Husky) in combination with a testing framework like Jest. By combining these two tools it is possible to make sure that no code is committed which breaks any of the test. One classic test example for a server might be a classic test request.
 
+## Example bacck-end code
+Knock'em is a 3D arcade bowling game for mobile phones in which players use a bowling to knock over pins to earn points.
+
+This game loop means that 
 ## Limitations
 The backend will not support WebRTC/similar persistent connections out of the box.
