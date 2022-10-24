@@ -1,6 +1,6 @@
 ---
 title: "Asset Naming Conventions"
-date: 2022-02-03
+date: 2022-09-30
 ---
 
 ## Abbreviations
@@ -15,7 +15,7 @@ It is important for teams to use a single language when naming assets because th
 **Consistency within domains**
 Not all files in a Unity project need to follow the same conventions, here are some examples:
 - C# files might use PascalCasing
-- JSON loca files might use kebab-casing 
+- JSON localization files might use kebab-casing 
 
 However:
 - All C# files should have consistent rules for casing. [Microsoft Code Conventions is a good place to start](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions).
