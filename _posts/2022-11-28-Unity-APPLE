@@ -6,20 +6,40 @@ date: 2022-11-28
 ## Introduction
 A.P.P.L.E. (APPLE) is an acronym for customer service techniques used by [Apple Inc.](https://de.wikipedia.org/wiki/Apple) employees. [Here is an explanation from 2011](https://www.socialmediatoday.com/content/apples-customer-service-secrets-revealed-apple). This acronym will be applied to Unity development here. Applying APPLE to Unity is inspired by the [writings of mitchellh](https://mitchellh.com/writing/apple-the-key-to-my-success).
 
+## Method
+Each of the points will be viewed from different perspectives as they relate to Unity.
+Unity Editor: Consider editor users as the customer.
+Unity Code: Consider yourself and other developers as the customer.
+Unity games: Consider your players as the customer.
+
+Below a table summary:
+| Unity Case |  Customer |
+|---|---|
+| Unity Editor | User of the editor |
+| Unity Code  | Developers of the project  |
+| Unity Build | Players of the game  |
+
 ## Results
 **A**pproach customers with a personalized warm welcome.
-
+Unity Editor: It can be nice to have a logo: e.g. the DoTween Utility panel does this.
+Unity Code: It can be nice to have class comments and to introduce new developers to the codebase in 1-on-1 meetings.
+Unity Build: Nowadays (2022) mobile Unity games tend to have tutorials which allow players to choose their names and equipment. An example of this  is "Harry Potter: Puzzles & Spells" (Zynga, 2020) where players can select their name and wands when starting their wizarding journey.
 
 **P**robe politely to understand all the customer’s needs.
-
+WIP
 
 **P**resent a solution for the customer to take home today.
-
+WIP
 
 **L**isten for and resolve any issues or concerns.
-
+WIP
 
 **E**nd with a fond farewell and an invitation to return.
+WIP
 
+Further similarities:
+- consider Apple's customer support as your company's Slack channel where game designers ask other developers for help with the tools
+- consider "invitation to return" (E) as your company's retrospective (assuming an agile workflow) where issues may be discussed
 
 ## Limitations
+Because no equivalency between Unity and APPLE has been expressed there will likely be differences. For example, it is unclear whether personalization would provide a benefit with a Unity editor used by many different people.
